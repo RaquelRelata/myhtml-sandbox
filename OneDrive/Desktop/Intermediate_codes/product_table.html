@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Information</title>
+   <style>
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    th, td {
+    border: 1px solid ;
+    padding: 8px;
+    text-align: center;
+    }
+       th {
+           background-color: #ffff33;
+       }
+    h2{
+        text-align:center;
+    }
+    .price{
+        font-weight:bold;
+        color:saddlebrown;
+    }
+    .out-of-stock{
+        background-color: red;
+    }
+    .in-stock{
+        background-color:lightgreen;
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Product Information</h2>
+    <table>
+        <thead>
+
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mango</td>
+                <td class="price">50</td>
+                <td class="in-stock">In Stock</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td class="price">70</td>
+                <td class="out-of-stock">Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td class="price">30</td>
+                <td class="out-of-stock">Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td class="price">95</td>
+                <td class="in-stock">In Stock</td>
+            </tr>
+            <tr>
+                <td>Avocado</td>
+                <td class="price">80</td>
+                <td class="in-stock">In Stock</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+</html>
